@@ -3,7 +3,7 @@ import base64
 
 from flask import Flask, render_template, request, redirect, url_for, session
 
-# from model import SavedTotal
+from model import SongRetrieved
 
 app = Flask(__name__)
 
