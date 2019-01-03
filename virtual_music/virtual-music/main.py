@@ -3,7 +3,7 @@ import base64
 
 from flask import Flask, render_template, request, redirect, url_for, session
 
-from model import SavedTotal
+# from model import SavedTotal
 
 app = Flask(__name__)
 
@@ -16,11 +16,10 @@ def retrieve():
         return render_template('retrieve.jinja2')
     else:
         try:
-            saved_total = SavedTotal.get(SavedTotal.code == code)
-        except SavedTotal.DoesNotExist:
+            song_retrieved = SongRetrieved.get(SongRetrieved.code == code)
+        
+        except Exception as e:
             return render_template('retrieve.jinja2', error="Code not found.")
-
-        session['total'] = saved_total.value
 
         return redirect(url_for('add'))
 
