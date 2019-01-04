@@ -1,6 +1,6 @@
 # ABDHL-LS-DS1-2019-Hackathon
 
-Contributors:
+Contributors:  
 Zach Angell, DS, Data pipeline construction/Data mining, Operations, Recommender system,  
 Brian Behnke, DS, Advising, Operations, Presentation,  
 Pierre Damiba, DS, Classification Model/Data wrangling, Operations,  
