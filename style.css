@@ -8,7 +8,7 @@ body {
 header {
   width: 80%;
   margin: auto;
-  border: white 1px solid;
+  border: white 1px solid; 
   border-radius: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -37,8 +37,43 @@ h1 {
   text-decoration: underline;
 }
 
+h3 {
+  text-decoration: underline;
+  color: white;
+}
+
+.happymenu:hover {
+  background-color: #77B439;
+}
+
+.sadmenu:hover {
+  background-color: #277B75;
+}
+
+.relaxedmenu:hover {
+  background-color: #C77B40;
+}
+
+.goofymenu:hover{
+  background-color: #B73A57;
+}
+
+.heckyeahmenu:hover{
+  background-color: #E5FC26;
+}
+
 .happy{
   color: #77B439;
+}
+
+.happy:hover {
+  color: #77B439;
+  border: 2px solid
+}
+
+.sad:hover{
+  color: #277B75;
+  border: 2px solid
 }
 
 .sad{
@@ -49,12 +84,27 @@ h1 {
   color:#C77B40;
 }
 
+.relaxed:hover{
+  color:#C77B40;
+  border: 2px solid
+}
+
 .goofy{
   color: #B73A57;
 }
 
+.goofy:hover{
+  color: #B73A57;
+  border: 2px solid
+}
+
 .heckyeah{
   color: #E5FC26;
+}
+
+.heckyeah:hover{
+  color: #E5FC26;
+  border: 2px solid
 }
 /* #banner {
   background: url(headphonesbanner.png);
