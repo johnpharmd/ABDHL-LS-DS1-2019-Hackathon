@@ -1,2 +1,8 @@
-# ABDGH-LS-DS1-2019-Hackathon
-For polishing, need to update team member changes in repo title; plus other stuff.
+# ABDHL-LS-DS1-2019-Hackathon
+
+Contributors:
+Zach Angell
+Brian Behnke
+Pierre Damiba
+John Humphreys
+Jasmine Logan
